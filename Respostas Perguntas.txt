@@ -1,0 +1,14 @@
+Existem outras entidades além dessas três?
+Sim, a entedidade facilitadores.
+
+Quais são os principais campos e tipos?
+
+Os campos são as chaves primárias de cada entidade. Os principais tipos são os estão ligados às chaves primárias.
+
+Cursos --> ID - Tipo = INT
+Aluno --> Matrícula - Tipo = VARCHAR
+Turma --> idturma - Tipo = VARCHAR
+
+Como essa entidades estão relacionadas?
+
+As entidades estão relacionadas a partir de cada especificidade das mesmas, onde a entidade inicial CURSO é ligada à entidade TURMAS que recebe ALUNOS. Já a entidade FACILITADOR, está recebendo diretamente à entidade TURMAS.
